@@ -1,0 +1,17 @@
+void main1() {
+    
+    int ilo = 1;
+    {
+        break;
+    }
+
+}
+
+
+void main2() {
+    continue;
+}
+void main() {
+    main1();
+    main2();
+}

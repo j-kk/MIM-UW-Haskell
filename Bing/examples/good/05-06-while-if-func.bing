@@ -1,0 +1,33 @@
+// factorial
+
+int factorial_with_loop (int x1) {
+    int ilo = 1;
+    int i = 1;
+    while (i < x1) {
+        i = i + 1;
+        ilo = ilo * i;
+    }
+    return ilo;
+}
+
+int factorial_recursive (int x2) {
+    if (x2 > 1) {
+        return x2 * factorial_recursive(x2-1);
+    } else {
+        return 1;
+    }
+}
+
+int factorial_with_loop2 (int x3) {
+    int ilo = 1;
+    for (i = 1 to x3 + 1) {
+        ilo = ilo * i;
+    }
+    return ilo;
+}
+
+void main() {
+    println(factorial_with_loop(4));
+    println(factorial_with_loop2(4));
+    println(factorial_recursive(4));
+}

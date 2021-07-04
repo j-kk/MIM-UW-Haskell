@@ -1,0 +1,51 @@
+# 01 (trzy typy) +
+# 02 (literały, arytmetyka, porównania) +
+# 03 (zmienne, przypisanie) +
+# 04 (print) +
+
+
+// int
+
+void main1 () {
+    int a = 1;
+    int b = 2;
+    int c = 3;
+    int d = a * b + c;
+    c = 3;
+    b = 2;
+    print(d);
+}
+
+// int + bool
+
+void main2() {
+    int a = 1;
+    int b = 2;
+    int c = 3;
+    int d = a * b + c;
+    bool var_true = True;
+
+    if (a <= 2) {
+        println(a);
+    } elif (b % 3 == 0) {
+        println(b);
+    } else {
+        println(c);
+    }
+
+    println(d);
+    println(var_true);
+}
+
+// string
+
+void main3() {
+    string s = "abc";
+    println(s);
+}
+
+void main() {
+    main1();
+    main2();
+    main3();
+}

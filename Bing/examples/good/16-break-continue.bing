@@ -1,0 +1,24 @@
+void main() {
+    
+    int ilo = 1;
+    for (i = 1 to 100) {
+        ilo = ilo * i;
+        if (ilo > 5) {
+            break;
+        }
+    }
+    print("Expected 6 got: ");
+    println(ilo);
+    
+    ilo = 1;
+    for (i = 1 to 100) {
+        if (ilo >= 6) {
+            continue;
+        }
+        ilo = ilo * i;
+    }
+    print("Expected 6 got: ");
+    println(ilo);
+
+
+}

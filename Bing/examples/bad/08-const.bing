@@ -1,0 +1,6 @@
+
+void main() {
+    const int i = 3;
+    i++;
+    print(i);
+}

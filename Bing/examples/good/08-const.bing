@@ -1,0 +1,14 @@
+
+void main() {
+    int i = 3;
+    i++;
+    println(i);
+
+
+
+    int ilo = 1;
+    for (j = 1 to 10) {
+        ilo = ilo * j;
+    }
+    println(ilo);
+}

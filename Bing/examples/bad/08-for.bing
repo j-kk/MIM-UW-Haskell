@@ -1,0 +1,14 @@
+// factorial
+
+int factorial_with_loop2 (int x) {
+    int ilo = 1;
+    for (i = 1 to x + 1) {
+        ilo = ilo * i;
+        i++;
+    }
+    return ilo;
+}
+
+void main() {
+    println(factorial_with_loop2(4));
+}

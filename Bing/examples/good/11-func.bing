@@ -1,0 +1,7 @@
+int mm() {
+    return 3;
+}
+
+void main() {
+    println(mm());
+}

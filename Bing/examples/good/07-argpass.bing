@@ -1,0 +1,19 @@
+void f(int a) {
+    a++;
+    print("Inside function: ");
+    println(a);
+}
+
+void main() {
+    int a = 0;
+    f(a);
+    print("(Without passing) Outside: ");
+    println(a);
+    f(&a);
+    print("(With passing) Outside: ");
+    println(a);
+    f(a);
+    print("(Without passing) Outside: ");
+    println(a);
+    return;
+}

@@ -1,0 +1,30 @@
+void ex1() {
+    int a = 1;
+    {   
+        a = a + 2;
+        println(a);
+        int a = 2;
+        println(a);
+        string b = "nowe b";
+    }
+
+    println(a);
+    println(b);
+}
+void ex2() {
+    int a = 0;
+    {
+        void zwieksz(int a) {
+            a = a + 1;
+            println(a);
+        }
+        print("call 1: ");
+        zwieksz(&a);
+    }
+    print("call 2: ");
+    zwieksz(&a);
+
+}
+void main() {
+    ex2();
+}

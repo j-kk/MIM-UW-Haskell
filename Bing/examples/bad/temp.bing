@@ -1,0 +1,7 @@
+void f() {
+    int s = "abc";
+
+}
+void main() {
+    f();
+}
